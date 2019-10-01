@@ -3,9 +3,7 @@ import models.Plate
 import models.Ugali
 import models.Veggies
 
-/*
-Provides an interface for receiving plate instances
- */
+
 object ServingRepo : IGetPlates {
 
     override fun getUgaliPlate(): Plate<Ugali> = Plate()
@@ -15,6 +13,9 @@ object ServingRepo : IGetPlates {
     override fun getVeggiesPlate(): Plate<Veggies> = Plate()
 }
 
+/*
+Provides an interface for receiving plate instances
+ */
 interface IGetPlates {
     fun getUgaliPlate(): Plate<Ugali>
     fun getFishPlate(): Plate<Fish>
