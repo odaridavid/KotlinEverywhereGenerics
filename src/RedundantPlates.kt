@@ -1,9 +1,3 @@
-package models
-
-import models.Fish
-import models.Ugali
-import models.Veggies
-
 /*
 Contains redundant implementation of classes representing a plate for each type of food
  */

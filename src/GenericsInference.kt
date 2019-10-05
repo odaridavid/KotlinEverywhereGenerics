@@ -1,5 +1,3 @@
-package models
-
 /**
  * Type of spice can be infered from constructor
  */

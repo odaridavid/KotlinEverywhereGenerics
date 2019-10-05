@@ -1,5 +1,3 @@
-package models
-
 /**
  * Plate class acts as a container that holds Food type classes
  */

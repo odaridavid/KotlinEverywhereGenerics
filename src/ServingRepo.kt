@@ -1,9 +1,3 @@
-import models.Fish
-import models.Plate
-import models.Ugali
-import models.Veggies
-
-
 object ServingRepo : IGetPlates {
 
     override fun getUgaliPlate(): Plate<Ugali> = Plate()
