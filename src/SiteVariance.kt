@@ -14,6 +14,7 @@ class Bar<out T> {
  */
 fun useSiteVarianceDemo() {
 
-    val arrayOfSomething: Array<in Any>
-    val arrayOfSomethingElse: Array<out Any>
+    val arrayOfSomething: Array<in Plate<Any>> = arrayOf()
+
+    val arrayOfSomethingElse: Array<out Plate<Any>> = arrayOf()
 }
