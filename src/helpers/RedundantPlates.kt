@@ -1,3 +1,9 @@
+package helpers
+
+import helpers.Fish
+import helpers.Ugali
+import helpers.Veggies
+
 /*
 Contains redundant implementation of classes representing a plate for each type of food
  */

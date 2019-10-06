@@ -7,7 +7,7 @@ class Fish : Food(), Edible {
     override fun toString(): String = "helpers.Fish"
 }
 
-class Ugali : Food(), Edible {
+open class Ugali : Food(), Edible {
     override fun toString(): String = "helpers.Ugali"
 }
 
