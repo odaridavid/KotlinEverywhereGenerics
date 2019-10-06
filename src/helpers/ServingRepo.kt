@@ -1,3 +1,7 @@
+package helpers
+
+import Plate
+
 object ServingRepo : IGetPlates {
 
     override fun getUgaliPlate(): Plate<Ugali> = Plate()
